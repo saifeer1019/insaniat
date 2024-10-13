@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "natunpro_insaniateditor",
+    "password": "Kodaline44",
+    "database": "natunpro_insaniat",
+    "host": "bd08.exonhost.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "natunpro_insaniateditor",
+    "password": "Kodaline44",
+    "database": "natunpro_insaniat",
+    "host": "bd08.exonhost.com",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "natunpro_insaniateditor",
+    "password": "Kodaline44",
+    "database": "natunpro_insaniat",
+    "host": "bd08.exonhost.com",
+    "dialect": "mysql"
+  }
+}
