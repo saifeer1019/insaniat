@@ -16,7 +16,7 @@ export default function Packages() {
             details: ["Sundarban Park, Hiron Point, Dublar Char, Sajnekhali", "10 days, 9 nights"],
             price: "9,500",
             discount: "5%",
-            img: "launch3"
+            img: "/launch3.jpg"
           },
           {
             title: "Adventurer Pack (11-20 people)",
@@ -24,7 +24,7 @@ export default function Packages() {
             details: ["Sundarban Park, Hiron Point, Dublar Char, Sajnekhali, Karamjal", "10 days, 9 nights"],
             price: "9,000",
             discount: "10%",
-            img: "launch2"
+            img: "/launch2.jpg"
           },
           {
             title: "Voyager Pack (21-30 people)",
@@ -32,7 +32,7 @@ export default function Packages() {
             details: ["Sundarban Park, Hiron Point, Dublar Char, Sajnekhali, Karamjal, Pakhirala Island", "10 days, 9 nights"],
             price: "8,500",
             discount: "15%",
-            img: "launch1"
+            img: "/launch1.jpg"
           }
         ].map((packageItem, index) => (
           <div key={index} className="bg-white border border-green-800 rounded-lg overflow-hidden shadow-md relative">
@@ -42,11 +42,11 @@ export default function Packages() {
             </div>
             <div className="relative">
               <Image
-                src="https://images.pexels.com/photos/724004/pexels-photo-724004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src={packageItem.img}
                 width={300}
                 height={200}
                 alt={`${packageItem.title} image`}
-                className="rounded-lg object-cover w-full"
+                className="rounded-lg object-cover w-full h-[200px]"
               />
            
               {/* Discount Badge */}

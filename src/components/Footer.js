@@ -27,8 +27,11 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-8 text-center text-sm">
-        © 2024 Insaniat Tourism. All rights reserved.
+        Developed by <Link href="https://www.saifeerahman.com" className="text-blue-400 hover:text-green-300">Saifee Rahman</Link>
       </div>
+      <div className="mt-8 text-center text-sm">
+      © 2022 Insaniat Tourism. All rights reserved.
+    </div>
     </div>
   </footer>
   );
